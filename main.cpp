@@ -1,14 +1,11 @@
 #include <iostream>
 #include <iomanip>
-#include <string>
-#include <sstream>
-#include <ostream>
+
 using namespace std;
 
 char catChoice = {0};
 double celsius = 0;
 double fahrenheit = 0;
-string input = "";
 
 int main(){
     bool correctInput = false;
