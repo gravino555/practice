@@ -15,6 +15,7 @@ int main(){
     cout<<endl;
     cout << "Begin by entering if you want to convert from Fahrenheit to Celsius by pressing \"f\" or vice versa by typing \"c\": " << endl;
     cin << cat ;
+    
     for (cat == f) {
         cout << "Please enter the temperature in Fahrenheit that you would like to convert to Celsius: " << endl;
         cin << fahrenheit;
@@ -27,7 +28,7 @@ int main(){
         fahrenheit = (celsius + 32) * 9/5;
         cout << celsius << " degrees Celsius is " << fahrenheit << " degrees Fahrenheit."<< endl;
     }
-    for (cat != f && cat !=c) {
+    for (cat != f || cat != c) {
         cout << "Option selected does not exist" << endl;
         return main();
     }
