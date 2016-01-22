@@ -44,8 +44,8 @@ double fahrenheit = 0;
      }
 
     else {
-         cout << "Option selected does not exist" << endl;
-
-       return 0;
+         cout << "Wrong option selected, please enter a correct option" << endl;
+         cout << endl;
+       return main();
      }
  }
